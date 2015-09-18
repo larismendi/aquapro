@@ -813,6 +813,10 @@ form{
 	font-size: 12em;	
 	color: #9C9C9C;
 }
+/*custom*/
+#contactForm input.error, #contactForm textarea.error, #contactForm select.error {
+	border: 1px solid red;
+}
 
 /***** Media Quries *****/
 @media only screen and (max-width: 1280px) {
